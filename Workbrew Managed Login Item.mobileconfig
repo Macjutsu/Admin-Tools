@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>2BD129AF-EE7B-4D74-816D-FCD09DC4110D</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Macjutsu</string>
+    <key>PayloadIdentifier</key>
+    <string>2BD129AF-EE7B-4D74-816D-FCD09DC4110D</string>
+    <key>PayloadDisplayName</key>
+    <string>Workbrew Managed Login Item</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Managed Login Items</string>
+        <key>PayloadIdentifier</key>
+        <string>5BF30D84-52A0-44A2-AC54-30516488D6C1</string>
+        <key>PayloadOrganization</key>
+        <string>Macjutsu</string>
+        <key>PayloadType</key>
+        <string>com.apple.servicemanagement</string>
+        <key>PayloadUUID</key>
+        <string>5BF30D84-52A0-44A2-AC54-30516488D6C1</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>Rules</key>
+        <array>
+          <dict>
+            <key>Comment</key>
+            <string/>
+            <key>RuleType</key>
+            <string>LabelPrefix</string>
+            <key>RuleValue</key>
+            <string>com.workbrew</string>
+          </dict>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>
