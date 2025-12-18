@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+	<key>AppPrefixAllowList</key>
+	<string>com.microsoft.,com.apple.,com.jamf.selfserviceplus.,com.jamf.trust.,com.jamf.management.,com.jamfsoftware.,com.google.</string>
+	<key>browser_sso_interaction_enabled</key>
+	<integer>1</integer>
+	<key>disable_explicit_app_prompt</key>
+	<integer>1</integer>
+</dict>
+</plist>
