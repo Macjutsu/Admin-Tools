@@ -5,7 +5,7 @@ local_users=($(dscl . list /Users | grep -v '^_'))
 psso_enabled_users=()
 
 for user_name in "${local_users[@]}";do
-	[[ "$(dscl . read /Users/"${user_name}" dsAttrTypeStandard:AltSecurityIdentities 2>/dev/null | awk -F'SSO:' '/PlatformSSO/ {print $2}')" == "${user_name}" ]] && psso_enabled_users+=("${user_name}")
+	[[ "$(dscl . read /Users/"${user_name}" dsAttrTypeStandard:AltSecurityIdentities 2>/dev/null | awk -F'SSO:' '/PlatformSSO/ {print $2}')" ]] && psso_enabled_users+=("${user_name}")
 done
 
 IFS=$'\n'
